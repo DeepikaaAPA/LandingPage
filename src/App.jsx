@@ -7,10 +7,10 @@ function App() {
     <>
       <NavBar />
       <Header />
-      <Features />
+      {/* <Features />
       <Reviews />
       <Subscribe />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
