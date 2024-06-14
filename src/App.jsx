@@ -1,6 +1,6 @@
 import { NavBar } from "./Components/NavBar";
 import { Header } from "./Components/Header";
-
+import { Features } from "./Components/Features";
 import "./App.css";
 
 function App() {
@@ -8,11 +8,11 @@ function App() {
     <>
       <NavBar />
       <Header />
-      {/* <Features />
+      <Features />{/*}
       <Reviews />
       <Subscribe />
       <Footer /> */}
-    </>
+    </> 
   );
 }
 
