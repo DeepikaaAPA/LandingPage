@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Fully Responsive",
     "description": {
+      "title": "Fully Responsive Design",
       "short": "This theme will look great on any device, no matter the size!",
       "long": "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
     },
