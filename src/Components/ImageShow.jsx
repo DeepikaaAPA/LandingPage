@@ -1,18 +1,22 @@
+//import a from "../assets/img/";
+
 export function ImageShow({ feature, index }) {
+  const url = "./src/assets/img/" + feature.img;
+
   const styles = {
-    backgroundImage: 'url("../assets/img/bg-showcase-"' + (index + 1) + ".jpg)",
+    backgroundImage: "url(" + url + ")",
   };
   return (
     <div className="row g-0">
       <div
         className={
-          "col-lg-6 text-white showcase-img" + (index % 2 && " order-lg-2")
+          "col-lg-6 text-white showcase-img " + (index % 2 && " order-lg-2")
         }
         style={styles}
       ></div>
       <div
         className={
-          "col-lg-6  my-auto showcase-text" + (index % 2 && " order-lg-1")
+          "col-lg-6  my-auto showcase-text " + (index % 2 && " order-lg-1")
         }
       >
         <h2>{feature.description.title}</h2>
