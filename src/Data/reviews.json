@@ -3,18 +3,18 @@
     "id": 1,
     "name": "Margaret E.",
     "review": "This is fantastic! Thanks so much guys!",
-    "pic": "testimonials-1.jpg"
+    "pic": "./src/assets/img/testimonials-1.jpg"
   },
   {
     "id": 2,
     "name": "Fred S.",
     "review": "Bootstrap is amazing. I've been using it to create lots of super nice landing pages.",
-    "pic": "testimonials-2.jpg"
+    "pic": "./src/assets/img/testimonials-2.jpg"
   },
   {
     "id": 3,
     "name": "Sarah W.",
     "review": "Thanks so much for making these free resources available to us!",
-    "pic": "testimonials-3.jpg"
+    "pic": "./src/assets/img/testimonials-3.jpg"
   }
 ]
