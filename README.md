@@ -1,8 +1,15 @@
-# React + Vite
+This Project shows the Landing Page of Show Bootstrap website designed using React.js
+It uses the following reusable Components :
+  1.Nav Bar
+  2.Header
+  3.Features
+  4.Image Showcase of Features
+  5.Reviews(Testimonials)
+  6.Call to action 
+  7.Footer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Features component uses data from Features.json to load the features dynamically.
+More features can be added as objects to Features.json if needed, with no change in code.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Reviews component uses Reviews.json to load the reviews.
+More reviews can be added as objects to reviews.json if needed, with no change in code.
