@@ -9,6 +9,7 @@ export function ImageShow({ feature, index }) {
   return (
     <div className="row g-0">
       <div
+        //   {/*insert order class only for odd indexed items as we want to alternate the order for every row */}
         className={
           "col-lg-6 text-white showcase-img " + (index % 2 && " order-lg-2")
         }
