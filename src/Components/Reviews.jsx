@@ -1,5 +1,6 @@
-import reviews from "../Data/reviews.json";
+// import reviews from "../Data/reviews";
 import { ReviewCard } from "./ReviewCard";
+import { Data } from "../Data/reviews";
 
 export function Reviews() {
   return (
@@ -8,7 +9,7 @@ export function Reviews() {
       <div className="container">
         <h2 className="mb-5">What people are saying...</h2>
         <div className="row">
-          {reviews.map((review) => (
+          {Data.map((review) => (
             <ReviewCard review={review} />
           ))}
         </div>
