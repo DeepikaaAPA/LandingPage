@@ -1,7 +1,7 @@
 //import a from "../assets/img/";
 
 export function ImageShow({ feature, index }) {
-  const url = "./src/assets/img/" + feature.img;
+  const url = feature.img;
 
   const styles = {
     backgroundImage: "url(" + url + ")",

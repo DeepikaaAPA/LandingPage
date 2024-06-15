@@ -1,4 +1,4 @@
-import featuresList from "../Data/Features.json";
+import { featuresList } from "../Data/FeaturesData";
 import { FeatureCard } from "./FeatureCard";
 import { ImageShow } from "./ImageShow";
 export function Features() {
