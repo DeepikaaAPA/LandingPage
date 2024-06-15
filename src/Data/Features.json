@@ -19,7 +19,7 @@
       "long": "Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!"
     },
     "icon": "bi-layers",
-    "img": "bg-showcase-1.jpg"
+    "img": "bg-showcase-2.jpg"
   },
   {
     "id": 3,
@@ -30,6 +30,6 @@
       "long": "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
     },
     "icon": "bi-terminal",
-    "img": "bg-showcase-1.jpg"
+    "img": "bg-showcase-3.jpg"
   }
 ]
