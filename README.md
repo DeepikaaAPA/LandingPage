@@ -15,8 +15,8 @@ It uses the following reusable Components :
   
   7.Footer
 
-The Features component uses data from Features.json to load the features dynamically.
+The Features component uses data from FeaturesList.jsx to load the features dynamically.
 More features can be added as objects to Features.json if needed, with no change in code.
 
 The Reviews component uses Reviews.json to load the reviews.
-More reviews can be added as objects to reviews.json if needed, with no change in code.
+More reviews can be added as objects to reviews.jsx if needed, with no change in code.
